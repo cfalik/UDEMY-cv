@@ -1,0 +1,111 @@
+<!-- html boiler plate -- type HTML and hit enter (emmet plugin will auto populate the standard html boilerplate code) -->
+
+<!DOCTYPE html>  <!-- tells the browser what version of html we are using - html 5 version in which the version declaration is significantly shorter -->
+<html lang="en" dir="ltr">
+<!-- head holds information about the web page -->
+  <head>
+    <!-- meta gives extra data to html document - in this case, all text in this web page is encoded in UTF-8.  UTF-8 includes all international symbols and emojis.  UTF-8 is the general standard to ensure maximum compatability across the world.. -->
+    <!-- the meta description is what will show up in google search results -->
+    <meta charset="utf-8">
+    <title>Crystal's Personal Site</title>
+  </head>
+
+  <body>
+    <center>
+      <table cellspacing="20">
+        <tr>
+          <td><img src="images\1517532731773.jpg" alt="Crystal's Profile Picture"></td>
+          <td><h1>Crystal Falik</h1>
+            <!-- em = emphasis.  Best practice to use that instead of the italics tag.  READ UP Also relates to using strong vs b -->
+            <p><em>Senior Software Developer at <strong>ASR Health Benefits</strong></em></p>
+            <p>I am a senior developer for ASR Health Benefits.  I love learning new things and being outside.</p></td>
+        </tr>
+      </table>
+    </center>
+
+    <hr/>
+
+    <h3>Education</h3>
+    <ul>
+      <li>Bay de Noc Community College</li>
+      <li>Central Michigan University</li>
+      <li>Michgan Technological University - BSBA Management Information Systems</li>
+      <li>Grand Rapids Community College - UNIX Certificate</li>
+      <li><a href="https://www.gvsu.edu/">Grand Vally State University</a> - MS Computer Information Systems</li>
+    </ul>
+
+    <hr>
+
+    <h3>Work Experience</h3>
+
+    <!-- HTML is for structure, CSS is for styling, JS is for function
+         It is possible to style web pages with the html attributes and achieve similar effects to CSS, but it is better practice to separate out the style from the structure -->
+    <table cellspacing="10">
+      <thead>  <!-- using the thead, tbody, and tfoot sections for a table is good practice and facilitates easier styling for advanced features (like locking the header when scrolling) -->
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>2015-2021</td>
+          <td>Development Manager at Smooth Logics</td>
+        </tr>
+        <tr>
+          <td>2010-2015</td>
+          <td>Software Developer</td>
+        </tr>
+      </tbody>
+
+      <tfoot></tfoot>
+    </table>
+
+    <hr>
+
+    <h3>Skills</h3>
+
+    <table border="1">
+      <tbody>
+        <tr>
+          <td>
+            <table cellspacing="10">
+              <tbody>
+                <tr>
+                  <td>C#</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>SQL</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+
+          <td>
+            <table cellspacing="10">
+              <tbody>
+                <tr>
+                  <td>.NET Framework</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Team Leadership</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <a href="hobbies.html">My Hobbies</a>
+    <br>
+    <a href="contactme.html">Contact Me</a>
+  </body>
+</html>
